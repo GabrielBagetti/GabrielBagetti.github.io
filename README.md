@@ -4,8 +4,8 @@ Este repositório contém um site, criado com foco em praticar e demonstrar habi
 
 ## 🔗 Acesse os site
 
-- 👉 [gabrielbagetti.github.io/flexbox](https://gabrielbagetti.github.io/flexbox)
-- 👉 [gabrielbagetti.github.io/grid+flexbox](https://gabrielbagetti.github.io/grid+flexbox)
+- 👉 [Flexbox](https://gabrielbagetti.github.io/flexbox)
+- 👉 [Grid+Flexbox](https://gabrielbagetti.github.io/grid+flexbox)
 
 ## 📁 Estrutura
 - `/grid+flexbox` — Exemplos práticos de layout com CSS Grid e Flexbox
