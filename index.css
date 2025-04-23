@@ -64,15 +64,14 @@ body {
                 }
             }
         }
-
-        & .regular-section {
+    & .regular-section {
             border: 2px solid yellow;
             padding: 10px;
             flex: 1;
         }
     }
 
-    & .main-aside {
+& .main-aside {
         flex: 1;
         border: 2px solid yellow;
         padding: 10px;
