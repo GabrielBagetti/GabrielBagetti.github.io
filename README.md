@@ -1,9 +1,10 @@
 # 🌐 Gabriel Bagetti — Portfólio Pessoal
 
-Este repositório contém meu site pessoal, criado com foco em praticar e demonstrar habilidades com HTML e CSS, especialmente com CSS Grid e Flexbox. O site está hospedado com GitHub Pages e pode ser acessado clicando no link abaixo.
+Este repositório contém um site, criado com foco em praticar e demonstrar habilidades com HTML e CSS, especialmente com CSS Grid e Flexbox. O site está hospedado com GitHub Pages e pode ser acessado clicando no link abaixo.
 
-## 🔗 Acesse o site
+## 🔗 Acesse os site
 
+👉 [gabrielbagetti.github.io](https://gabrielbagetti.github.io/index1)
 👉 [gabrielbagetti.github.io](https://gabrielbagetti.github.io)
 
 ## 📁 Estrutura
