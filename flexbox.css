@@ -1,74 +1,97 @@
 * {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     background-color: #000000;
-    color: rgb(0, 71, 0);
-  }
-  
-  header,
-  footer {
+    color: green;
+}
+
+header,
+footer {
     display: flex;
     justify-content: space-between;
-    border: 2px solid rgb(0, 71, 0);
+    flex-wrap: wrap;
+    border: 2px solid green;
     padding: 10px;
-  }
-  
-  nav {
+    text-align: center;
+}
+
+nav {
     border: 2px solid yellow;
     padding: 15px;
     width: 70%;
     margin-left: auto;
     color: yellow;
-  }
-  
-  main {
+}
+
+main {
     border: 2px solid rgb(0, 72, 0);
     padding: 10px;
-  }
-  
-  main > strong {
+}
+
+main > strong {
     display: block;
     margin-bottom: 10px;
-  }
-  
-  .content {
+}
+
+.content {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 10px;
-  }
-  
-  section {
+}
+
+section {
     border: 2px solid yellow;
     padding: 20px;
     color: yellow;
-  }
-  
-  .content > section {
     flex: 2;
-  }
-  
-  .content > aside {
+    min-width: 250px;
+}
+
+.content > aside {
     flex: 1;
     border: 2px solid yellow;
     padding: 10px;
     color: yellow;
-  }
-  
-  article {
+    min-width: 200px;
+}
+
+article {
     border: 2px solid blue;
     margin: 5px 0;
     padding: 25px;
     color: blue;
-  }
-  
-  aside section {
+}
+
+aside section {
     border: 2px solid blue;
     margin-top: 10px;
     padding: 15px;
     color: blue;
-  }
-  
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    header,
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content > section,
+    .content > aside {
+        width: 100%;
+    }
+}
