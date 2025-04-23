@@ -2,7 +2,7 @@
 
 Este repositório contém um site, criado com foco em praticar e demonstrar habilidades com HTML e CSS, especialmente com CSS Grid e Flexbox. O site está hospedado com GitHub Pages e pode ser acessado clicando no link abaixo.
 
-## 🔗 Acesse os site
+## 🔗 Acesse os sites
 
 - 👉 [Flexbox](https://gabrielbagetti.github.io/flexbox)
 - 👉 [Grid+Flexbox](https://gabrielbagetti.github.io/grid+flexbox)
