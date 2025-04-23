@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Layout Estruturado</title>
-  <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Usando FlexBox</title>
 </head>
-
 <body>
-  <div class="grid-container">
+    <div class="conteiner-header">
+        <header>
+            <h1>header</h1>
+            <nav class="item-nav">
+                <h1>nav</h1>
+            </nav>
+        </header>
+    </div>
 
-    <header>
-      <strong>header</strong>
-      <nav>nav</nav>
-    </header>
-
-    <main>
-      <strong>main</strong>
-      <div class="content">
-        <section>
-          <strong>section</strong>
-          <article>article</article>
-          <article>article</article>
-          <article>article</article>
-        </section>
-        <aside>
-          <strong>aside</strong>
-          <section>section</section>
-          <section>section</section>
+    <main class="main-conteiner">
+        <div class="main-content">
+            <h1>main</h1>
+            <section class="section-articles">
+                <h1>section</h1>
+                <div class="article-conteiner">
+                    <article>
+                        <h1>article</h1>
+                    </article>
+                    <article>
+                        <h1>article</h1>
+                    </article>
+                    <article>
+                        <h1>article</h1>
+                    </article>
+                </div>
+            </section>
+            <section class="regular-section">
+                <h1>section</h1>
+            </section>
+        </div>
+        <aside class="main-aside">
+            <h1>aside</h1>
+            <section>
+                <h1>section</h1>
+            </section>
+            <section>
+                <h1>section</h1>
+            </section>
         </aside>
-      </div>
-      <section><strong>section</strong></section>
     </main>
 
-    <footer><strong>footer</strong></footer>
-
-  </div>
+    <footer>
+        <h1>footer</h1>
+    </footer>
 </body>
-
 </html>
